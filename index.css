@@ -15,7 +15,7 @@ body{
 .container{
     background:url("INCAS.JPG");
     background-position:center;
-    background-size: contain;
+    background-size:50%;
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     width: 100vw;
