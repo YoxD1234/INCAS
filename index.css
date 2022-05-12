@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url('muonline_06.jpg');
+}
+.container{
+    background:url("INCAS.JPG");
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    font-size: 250px;
+    color: rgb(17, 167, 142);
+}
+.container button{
+    background-color: rgb(207, 39, 17);
+    color: white;
+    border: none;
+    padding: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    font-weight:bolder;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow:  3px 3px 1px white;
+}
